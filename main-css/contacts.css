@@ -1,0 +1,207 @@
+@media (max-width : 747px ){
+
+	/* body starts */
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	text-align: center;
+	
+}
+	/* body ends */
+
+	/* image starts */
+.header-image img {
+	width: 250px;
+	height:250px;
+	/* width: 206px; */
+	/* height: 180px; */
+	object-fit:cover;
+	border-radius: 50%;
+}
+	/* image ends */
+
+	/* header-image start : yellow background on image. */
+.header-image{
+	background-color: #FDCF66;
+	padding: 35px;
+}
+	/* header-image ends */
+
+	/* nav starts */
+nav ul li a{
+	text-decoration: none;
+	color:black;
+	background-color: #7B7B7B;
+	display: block;
+	padding: 10px 0 10px 0px;
+	margin: 5px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+nav ul li a:hover{
+	background-color: #B39F66;
+	color: white;
+	transition: .6s;
+}
+nav ul{
+	list-style: none;
+	padding-left: 0px;
+}
+	/* nav ends */
+
+	/* contacts starts */
+.contact-box{
+	text-align: center;
+	padding: 0px 20px;
+	margin: 0px 10px;
+	color: black;
+}
+	/* contact ends */
+
+	/* footer starts */
+.footer-svg ul li {
+	display: grid;
+	display: inline-grid;
+	font-size: 1em;
+	padding: 10px;
+}
+.footer-svg ul li a{
+	color: #B1ABAB;	
+}
+
+.footer-svg ul{
+	margin: auto;
+	padding-right:30px;
+}
+hr{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.footer-svg ul li a:hover{
+	transition: .6s;
+	color:#B39F66;
+}
+	/* footer ends  */
+}
+@media (min-width : 748px ){
+
+	/* body starts */
+	body{
+		
+	font-family: 'Open Sans', sans-serif;
+	
+	
+	margin: 0;
+	text-align: center;
+}
+	/* body ends */
+
+	/* page wrapper starts: page-wrapper is the overall container of my page */
+
+		.page-wrapper{
+		height: 100vh;
+		display: grid;
+		/* grid-template-columns: 1fr 1fr; */
+		grid-column-gap: 10px;
+	}
+	/* page wrappe ends */
+
+
+	/* header-image was filled with yellow */
+	.header-image{
+		background-color: #FDCF66;
+	}
+
+	/* image starts */
+	img{
+		width: 300px;
+		height: 100vh;
+		float: right;
+		object-fit:cover;
+	}	
+	/* image ends */
+
+	.picture-grid{
+		display: grid;
+		grid-row: 1/4;
+	}
+	
+	.nav{
+		display: grid;
+		grid-column: 2/3
+	}
+
+	nav ul li{
+		flex: 1;
+	}
+	/* Nav starts */
+	nav ul li a{
+	text-decoration: none;
+	color:black;
+	display: block;
+	padding: 10px 0 10px 0px;
+	margin: 5px;
+	text-align: center;
+}
+	nav ul li a:hover{
+	background-color: #B39F66;
+	color: white;
+	border-radius: 13px;
+	transition: .6s;
+}
+	nav ul{
+	display: flex;
+	list-style: none;
+	padding-left: 0px;
+
+	}
+	/* Nav ends */
+	
+/*	Contact starts :the code below contains h1 and p */
+	.contact-box{
+	text-align: center;
+	padding:10px 15px;
+	margin: 0px 10px;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
+}
+
+/* main is the little text, i included the border to make it look better */
+main{
+	border: 1px solid #C7B762;
+	border-radius: 10px;
+	display: grid;
+	margin: auto;
+	grid-column: 2/3;
+	padding: 10px
+}
+/* Contacts ends */
+
+/* footer starts */
+.footer-svg ul li {
+	display: grid;
+	display: inline-grid;
+	font-size: 1em;
+	padding: 10px;
+
+}
+.footer-svg ul li a{
+	color: #B1ABAB;	
+}
+
+.footer-svg ul{
+	margin: auto;
+}
+	.footer-svg ul li a:hover{
+	transition: .6s;
+	color:#B39F66;
+}
+	.active{
+		border-bottom: 3px solid #FAEB68;
+	}
+/* footer ends */
+}

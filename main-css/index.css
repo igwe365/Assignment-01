@@ -1,0 +1,123 @@
+/* applies to whole body */
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-size: larger;
+}
+
+/* the code applies to the background image */
+body{
+    background-image: url(../images/marvin\ blurred.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* header of the page */
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+ul li a{
+    color: white;
+    padding: 5px 0.2px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+/* the code below applies to the hovering effect */
+.main ul li a:hover{
+    color: black;
+    border: 1px solid yellow;
+    padding: 5px;
+    background-color: white;
+    border-radius: 7px;
+    
+}
+/* the yellow line beneath home (my master piece :) ) */
+ul li a.active{
+    border-bottom: 2px solid yellow;
+    
+}
+
+/* please ignore the code below just for the use of a different page  */
+/* use this code below for cv link. its got the round edge box with link in the middle */
+/* link path {
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 3px;
+    color: white;
+}
+link path{
+    background-color: white;
+    color: yellow;
+} */
+
+
+/* links top right of page: makes it shift to the left a little bit */
+.main{
+    max-width: 1700px;
+    margin: auto;
+}
+
+/* the code works on class title  */
+.title{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Amatic SC', cursive;
+    opacity: 90%;
+}
+.title h1{
+    font-size: 100px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-align: center;
+}
+/* size of my text and its centering */
+.title p{
+    font-size: 50px;
+    text-align: center;
+}
+/* the little bit of yellow in my text : here's the magic */
+span{
+    font-size: 50px;
+    color: yellow;
+}
+
+/* i wasn't too sure if i could position this at the bottom where it is now. */
+#footer{
+    display: grid;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    position: absolute;
+
+    /* centering my social links starts */
+    top: 80%;
+    left: 50%;
+    transform: translate(-53%, -50%);
+    /* centering my social links ends */
+    opacity: 80%;
+
+    
+    /* border: solid 5px red; */
+    
+}
+/* yeah not much to say. Just basic black color upon hovering  */
+footer ul li a:hover{
+    color: black;
+}

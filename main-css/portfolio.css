@@ -1,0 +1,28 @@
+img{
+    border-style: none;
+    border-radius: 100%;
+    filter: grayscale(0);
+    width: 10%;
+}
+/* .placeholder-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px));
+    grid-gap: 1.5rem;
+    grid-auto-rows: minmax(150px, auto);
+}
+.image-item{
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 5);
+    transition: all .3s;
+    overflow: hidden;
+    position: relative;
+}
+.image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover; */
