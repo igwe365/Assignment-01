@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+}
+body{
+    background-image: url(../images/marvin\ blurred.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+}
+
+
+/* nav starts */
+nav ul li{
+    float:right;
+    margin-top: 25px;
+    list-style: none;
+    margin: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    /* border: 1px solid yellow; */
+}
+nav ul li a{
+    /* border: 1px solid red; */
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+    transition: 0.3s ease;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+}
+nav ul li a.active{
+    border-bottom: 2px solid  yellow;
+}
+/* nav ends */
+
+/* main starts */
+main div{
+    /* border: white 1px solid; */
+    width: 1700px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+    margin-top: 30px;
+}
+.section-one{
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 100px;
+}
+p{
+    font-size: 50px;
+}
+span{
+    font-size: 70px;
+    color: yellow;
+}
+
+
+/* footer start */
+footer{
+    /* border: 1px solid yellow; */
+    text-align: center;
+}
+footer ul li{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;    
+}
+footer ul li a{
+    color: white;
+    opacity: 70%;
+}
+footer ul li a:hover{
+    color: rgb(219, 181, 84);
+}
+@media(max-width:600px){
+    body{
+        /* add something */
+    }
+}
+
