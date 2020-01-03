@@ -1,18 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
 }
+
 body{
     background-image: url(../images/marvin\ blurred.jpeg);
-    height: 100vh;
     background-size: cover;
-    background-position: center;
+    height: 100vh;
     display: grid;
 }
-
 
 /* nav starts */
 nav ul li{
@@ -43,8 +41,6 @@ nav ul li a.active{
 
 /* main starts */
 main div{
-    /* border: white 1px solid; */
-    width: 1700px;
     height: 100px;
     margin: 0 auto;
     text-align: center;
@@ -55,7 +51,6 @@ main div{
 .section-one{
     margin-top: 200px;
 }
-
 h1{
     font-size: 100px;
 }
@@ -66,16 +61,14 @@ span{
     font-size: 70px;
     color: yellow;
 }
-
-
 /* footer start */
 footer{
-    /* border: 1px solid yellow; */
     text-align: center;
+    margin-top: 200px;
 }
 footer ul li{
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
     margin-top: 10px;    
 }
 footer ul li a{
@@ -87,7 +80,10 @@ footer ul li a:hover{
 }
 @media(max-width:600px){
     body{
-        /* add something */
+         display: grid;
+         grid-template-columns: 1fr;
+    }
+    nav ul li a{
+        font-size: 20px;
     }
 }
-
