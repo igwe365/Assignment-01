@@ -108,7 +108,7 @@ nav ul li a.active{
 @media (max-width: 500px) {
     .gallery-item,
     body{
-        max-width: 50%;
+        max-width: 100%;
         grid-template-columns: 1fr;
         /* grid-column: 2;
         font-family: Oswald, sans-serif;
@@ -123,6 +123,9 @@ nav ul li a.active{
     }
     .gallery{
         justify-items: center;
+    }
+    .container{
+        padding: 20px;
     }
 ----------------------------
 }
