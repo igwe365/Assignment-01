@@ -109,10 +109,10 @@ nav ul li a.active{
     .gallery-item,
     body{
         max-width: 50%;
-        /* grid-template-columns: 1fr; */
-        /* grid-column: 2; */
+        grid-template-columns: 1fr;
+        /* grid-column: 2;
         font-family: Oswald, sans-serif;
-        text-align: left;
+        text-align: left; */
     }
     .gallery{
         display: grid;
@@ -122,7 +122,7 @@ nav ul li a.active{
         grid-row-gap: 10px;
     }
     .gallery{
-        /* justify-items: center; */
+        justify-items: center;
     }
 ----------------------------
 }
