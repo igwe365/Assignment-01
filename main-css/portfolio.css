@@ -102,7 +102,7 @@ nav ul li a:hover{
 }
 nav ul li a.active{
   border-bottom: 2px solid  yellow;
-  /* padding-top: 5px; */
+  
 }
 
 @media (max-width: 500px) {
@@ -110,9 +110,6 @@ nav ul li a.active{
     body{
         max-width: 100%;
         grid-template-columns: 1fr;
-        /* grid-column: 2;
-        font-family: Oswald, sans-serif;
-        text-align: left; */
     }
     .gallery{
         display: grid;
@@ -127,5 +124,5 @@ nav ul li a.active{
     .container{
         padding: 20px;
     }
-----------------------------
+
 }
