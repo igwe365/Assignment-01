@@ -13,8 +13,6 @@ body{
 .header-image img {
 	width: 250px;
 	height:250px;
-	/* width: 206px; */
-	/* height: 180px; */
 	object-fit:cover;
 	border-radius: 50%;
 }

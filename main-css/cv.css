@@ -1,3 +1,4 @@
+
 *{
 	box-sizing: border-box
 	
@@ -53,6 +54,7 @@ a:hover {
 	background: #FFFFFF;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+/*  The code above was gotten from :- Andre Madarang : https://youtu.be/sVp6KrFeKNI */
 
 img{
 	max-width: 100%;
